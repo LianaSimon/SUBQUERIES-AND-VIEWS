@@ -24,47 +24,29 @@ Country and Persons Table Operations
 
 5. Select all countries whose population is greater than the average population.
 
-6. String Operations on Country Table:
-
-7. Find the length of each country name.
-
-8. Extract the first three characters of each country name.
-
-9. Convert country names to uppercase and lowercase.
-
-10. Age Calculation:
-
-Add a DOB column to Persons table.
-
-Implement a user-defined function to calculate age from DOB.
-
-Query to fetch the age of all persons using the function.
-
-Product Database and Customer Table Operations
-
-11. Database & Table Creation:
+** Database & Table Creation:
 
 Create a Product database.
 
 Define the Customer table with fields such as Customer_Id, First_name, Last_name, Email, Phone_no, Address, City, State, Zip_code, and Country.
 
-12. Views Creation:
+a) Views Creation:
 
 customer_info: Displays customers' full name and email.
 
-US_Customers: Displays only customers located in the USA.
+b) US_Customers: Displays only customers located in the USA.
 
-Customer_details: Combines first_name and last_name along with email, phone_no, and state.
+c) Customer_details: Combines first_name and last_name along with email, phone_no, and state.
 
-13. Data Manipulation & Queries:
+** Data Manipulation & Queries:
 
-Update phone numbers for customers residing in California.
+d) Update phone numbers for customers residing in California.
 
-Count the number of customers per state and filter states with more than five customers.
+e) Count the number of customers per state and filter states with more than five customers.
 
-Retrieve customer count per state from the Customer_details view.
+f) Retrieve customer count per state from the Customer_details view.
 
-Display all customer details sorted by state in ascending order.
+g) Display all customer details sorted by state in ascending order.
 
 
 ## Usage
